@@ -1,9 +1,10 @@
 import { Component, inject } from '@angular/core';
 import { RickandmortyService } from '../../services/rickandmorty.service';
+import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-listado',
-  imports: [],
+  imports: [CardComponent],
   templateUrl: './listado.component.html',
   styleUrl: './listado.component.css'
 })
